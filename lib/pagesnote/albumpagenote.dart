@@ -64,7 +64,7 @@ class _AlbumPageNoteState extends State<AlbumPageNote> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Album Page Note")),
+      appBar: AppBar(title: const Text("Album Page Note")),
       backgroundColor: Colors.deepOrange,
       body: Center(
         child: FutureBuilder<List<Album>>(
